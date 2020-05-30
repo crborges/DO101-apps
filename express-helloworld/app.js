@@ -6,7 +6,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/mars', function (req, res) {
+<<<<<<< HEAD
   res.send('Hello Mars!!!!\n in mars there is inteligency life');
+=======
+  res.send('Hello Mars!!!!\n');
+>>>>>>> 03b08094c76cec886b3c8beca3ad433a8b4f76f8
 });
 
 
